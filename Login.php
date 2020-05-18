@@ -1,12 +1,18 @@
 <link rel="stylesheet" type="text/css" href="Css/style.css">
 <?php
 
-include('DBconfig.php');
 include('Includes\header.php');
 include('Includes\login.php');
 
-$error = "";
 if (isset($_POST["submit"])) {
+    login();
+}
+
+function login()
+{
+    include('DBconfig.php');
+    include('DBconfig.php');
+    $error = "";
     $email = htmlspecialchars($_POST["email"]);
     $password = htmlspecialchars($_POST["password"]);
 
@@ -31,9 +37,9 @@ if (isset($_POST["submit"])) {
     } catch (PDOException $e) {
         echo $e->getMessage();
     }
+    echo '<script language="javascript">';
+    echo 'alert("' . $error . '")';
+    echo '</script>';
 }
-echo '<script language="javascript">';
-echo 'alert("' . $error . '")';
-echo '</script>';
-//echo "<div id='meldingen'>" . $error . "</div>";
+
 ?>
