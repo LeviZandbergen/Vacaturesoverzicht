@@ -52,6 +52,7 @@ function register()
     $password = htmlspecialchars($_POST['password']);
     $validatedEmail = filter_var($email, FILTER_VALIDATE_EMAIL);
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
     $sql = "SELECT * FROM user WHERE email = ?";
     $stmt = $db->prepare($sql);
     $stmt->execute(array($email));
