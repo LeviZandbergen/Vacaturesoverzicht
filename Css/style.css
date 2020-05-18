@@ -1,3 +1,4 @@
+/*Header styling*/
 .header {
     display: flex;
     border: solid 1px black;
@@ -14,4 +15,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*Content block styling*/
+.content {
+    margin-top: 5%;
+    width: 100%;
+}
+
+/*Login styling*/
+#login, #register {
+    border: solid 1px black;
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#login-register {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-register-button {
+    margin-bottom: 5%;
+}
+
+.input-text {
+    width: 70%;
 }
