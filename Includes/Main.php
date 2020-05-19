@@ -3,7 +3,10 @@
     <div id="mainPageContent">
 
         <div id="SideContent">
-            <a href="newJobOffer.php">Nieuwe vacature toevoegen</a>
+            <?php if ($sessionID == 2) {
+                echo '<a class="newOffer" href="newJobOffer.php">Nieuwe vacature toevoegen</a>';
+            }
+            ?>
         </div>
 
         <div id="JobOfferList">

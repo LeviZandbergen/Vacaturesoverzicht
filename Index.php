@@ -3,6 +3,8 @@
 include('DBconfig.php');
 include('Includes\header.php');
 
+$sessionID = $_SESSION['ID'];
+
 //Selects all joboffers to show in the main page
 $sql = "SELECT * FROM jobOffer";
 $stmt = $db->prepare($sql);

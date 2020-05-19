@@ -53,6 +53,12 @@
     flex-direction: row;
 }
 
+.newOffer, .Activate-JobOffer {
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+}
+
 #JobOfferList {
     display: flex;
     flex-direction: column;
@@ -82,3 +88,57 @@
     height: 50%;
     border: solid 1px black;
 }
+
+.jobOfferMotivation {
+    width: 80%;
+    height: 100px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.motivationDownload {
+    border: solid 1px black;
+    width: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.motivation-text {
+    border: solid 1px black;
+    width: 60%;
+    height: 80%;
+}
+
+.accept-reject-buttons {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.accept-button, .reject-button {
+    border: solid 1px black;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+/*offer Accepted styling*/
+.accepted-motivation {
+    height: 30%;
+    width: 98%;
+    border: solid 1px black;
+}
+
