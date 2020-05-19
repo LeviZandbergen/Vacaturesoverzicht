@@ -10,6 +10,10 @@ if (isset($_POST["login"])) {
     register();
 }
 
+//This function processes the login of the user. When the email and password are filled in the email is checked in the user and manager table.
+//If they are not present a alert will appear.
+//When the email is present in one of those tables a session will be set.
+//The session id will stands for if the user is a manager or just a regular user
 function login()
 {
     include('DBconfig.php');
@@ -55,6 +59,10 @@ function login()
     echo '</script>';
 }
 
+//In this function a new user can be made. First the email will be validated and the password will be hashed.
+//Then the function checks if the email is already present in the user or manager table.
+//If so a alert will appear.
+//If not, a new user will be created in the user table
 function register()
 {
     include('DBconfig.php');
@@ -70,6 +78,13 @@ function register()
     $stmt->execute(array($email));
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
+//    When there is no result from the user table it will check the manager table if the email is already present there
+    if (!$result) {
+        $sql = "SELECT * FROM manager WHERE manEmail = ?";
+        $stmt = $db->prepare($sql);
+        $stmt->execute(array($email));
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    }
     if ($result > 0) {
         $error .= "Dit emailadres is al in gebruik";
     } else {

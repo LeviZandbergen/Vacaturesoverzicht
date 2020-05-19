@@ -6,6 +6,7 @@
         <a>Vacature naam</a><input type="text" class="input-text" name="offerName"><br><br>
         <a>Vacature functie</a><select name="offerFunction">
             <?php
+//            selects all jobfunctions and shows them in a select with the id as value
             $sql = "SELECT * FROM jobfunction";
             $stmt = $db->prepare($sql);
             $stmt->execute();
@@ -19,6 +20,7 @@
         </select><br><br>
         <a>Vacature branch</a><select name="offerBranch">
             <?php
+            //            selects all jobbranches and shows them in a select with the id as value
             $sql = "SELECT * FROM jobbranch";
             $stmt = $db->prepare($sql);
             $stmt->execute();
