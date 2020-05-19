@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea27cb8-8250-4e92-b070-2140aa91a6c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Includes/jobOffer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobOffer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Includes/newJobOffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/newJobOffer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newJobOffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/newJobOffer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Includes/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/Main.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,28 +28,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="php" value="13" />
+          <entry key="php" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="PHP" value="11" />
+          <entry key="PHP" value="21" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="801" />
-          <entry key="php" value="7632" />
-          <entry key="txt" value="260" />
+          <entry key="css" value="1257" />
+          <entry key="php" value="10772" />
+          <entry key="txt" value="413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="801" />
-          <entry key="PHP" value="7588" />
-          <entry key="PLAIN_TEXT" value="304" />
+          <entry key="CSS" value="1257" />
+          <entry key="PHP" value="10728" />
+          <entry key="PLAIN_TEXT" value="457" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -60,47 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newJobOffer.php">
+        <entry file="file://$PROJECT_DIR$/jobOffer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Includes/newJobOffer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="80" column="119" selection-start-line="80" selection-start-column="119" selection-end-line="80" selection-end-column="119" />
+            <state relative-caret-position="676">
+              <caret line="30" column="117" selection-start-line="30" selection-start-column="117" selection-end-line="30" selection-end-column="117" />
             </state>
           </provider>
         </entry>
@@ -110,6 +75,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>black</find>
+      <find>href</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,15 +92,17 @@
         <option value="$PROJECT_DIR$/App/Includes/headers.php" />
         <option value="$PROJECT_DIR$/App/DBconfigs.php" />
         <option value="$PROJECT_DIR$/App/Index.php" />
-        <option value="$PROJECT_DIR$/Css/style.css" />
         <option value="$PROJECT_DIR$/Includes/header.php" />
-        <option value="$PROJECT_DIR$/Logout.php" />
         <option value="$PROJECT_DIR$/Includes/login.php" />
-        <option value="$PROJECT_DIR$/Includes/Main.php" />
-        <option value="$PROJECT_DIR$/Index.php" />
         <option value="$PROJECT_DIR$/Login.php" />
-        <option value="$PROJECT_DIR$/Includes/newJobOffer.php" />
         <option value="$PROJECT_DIR$/newJobOffer.php" />
+        <option value="$PROJECT_DIR$/Logout.php" />
+        <option value="$PROJECT_DIR$/Includes/newJobOffer.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
+        <option value="$PROJECT_DIR$/Includes/Main.php" />
+        <option value="$PROJECT_DIR$/Css/style.css" />
+        <option value="$PROJECT_DIR$/Includes/jobOffer.php" />
+        <option value="$PROJECT_DIR$/jobOffer.php" />
       </list>
     </option>
   </component>
@@ -145,10 +113,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +179,7 @@
       <updated>1589731717628</updated>
       <workItem from="1589731720106" duration="3000" />
       <workItem from="1589790036944" duration="16695000" />
-      <workItem from="1589871841480" duration="2112000" />
+      <workItem from="1589871841480" duration="8291000" />
     </task>
     <task id="LOCAL-00001" summary="Added header and basic styling for header">
       <created>1589791926018</created>
@@ -256,17 +223,31 @@
       <option name="project" value="LOCAL" />
       <updated>1589806748826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added check for manager email when a new user is created. And added comments to the code">
+      <created>1589874088485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589874088485</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added the list of joboffers on the main page">
+      <created>1589875712455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589875712455</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18810000" />
+    <option name="totallyTimeSpent" value="24989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.09932886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,29 +281,17 @@
     <MESSAGE value="added register functionality" />
     <MESSAGE value="added functionallity for creating new offers" />
     <MESSAGE value="Added funcionallity for manager login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added funcionallity for manager login" />
+    <MESSAGE value="Added check for manager email when a new user is created. And added comments to the code" />
+    <MESSAGE value="Added the list of joboffers on the main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the list of joboffers on the main page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App/DBconfigs.php" />
     <entry file="file://$PROJECT_DIR$/App/Includes/headers.php" />
-    <entry file="file://$PROJECT_DIR$/Includes/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -340,38 +309,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
+    <entry file="file://$PROJECT_DIR$/Logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="80" column="119" selection-start-line="80" selection-start-column="119" selection-end-line="80" selection-end-column="119" />
+        <state relative-caret-position="52">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="571">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Includes/newJobOffer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+        <state relative-caret-position="-208">
+          <caret line="2" column="27" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/jobOffer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newJobOffer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        <state relative-caret-position="279">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="6" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobOffer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="30" column="117" selection-start-line="30" selection-start-column="117" selection-end-line="30" selection-end-column="117" />
         </state>
       </provider>
     </entry>

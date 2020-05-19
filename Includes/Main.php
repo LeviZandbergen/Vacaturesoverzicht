@@ -10,7 +10,7 @@
             <?php
             //            shows all joboffers
             foreach ($result as $key => $value) {
-                echo '<a class="jobOffer" href="/vacature?id= ' . $value["jobofferID"] . ' " class="jobOfferName"><strong>' . ucfirst($value["name"]) . '</strong></a>';
+                echo '<a class="jobOffer" href="../Examen/jobOffer.php?id= ' . $value["jobofferID"] . ' " class="jobOfferName"><strong>' . ucfirst($value["name"]) . '</strong></a>';
             }
             ?>
         </div>

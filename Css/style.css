@@ -73,3 +73,12 @@
 #sideContent {
     width: 20%;
 }
+
+/*JobOffer styling*/
+.description {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 50%;
+    border: solid 1px black;
+}
