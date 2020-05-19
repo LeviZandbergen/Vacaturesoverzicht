@@ -46,3 +46,30 @@
 .input-text {
     width: 70%;
 }
+
+/*Mainpage jobOffer styling*/
+#mainPageContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#JobOfferList {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.JobOffer {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100px;
+    border: solid 1px black;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#sideContent {
+    width: 20%;
+}

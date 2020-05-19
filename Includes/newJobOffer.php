@@ -1,5 +1,3 @@
-<?php
-?>
 <html>
 <div class="content">
     <form name="creatJobOffer" id="newJobOffer" method="POST" enctype="multipart/form-data" action="">
