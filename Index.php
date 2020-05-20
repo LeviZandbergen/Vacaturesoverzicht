@@ -4,7 +4,6 @@ include('DBconfig.php');
 include('Includes\header.php');
 
 $sessionID = $_SESSION['ID'];
-
 //Selects all joboffers to show in the main page
 if ($_SESSION['ID'] == 2) {
     $sql = "SELECT * FROM jobOffer";
