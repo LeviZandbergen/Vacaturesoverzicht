@@ -7,6 +7,24 @@
                 echo '<a class="newOffer" href="newJobOffer.php">Nieuwe vacature toevoegen</a>';
             }
             ?>
+            <form name="filter" id="filter" method="POST" enctype="multipart/form-data" action="">
+                <input type="search"><br>
+
+                Catagoriseer<select>
+                    <option></option>
+                </select><br>
+
+                Filter<select>
+                    <?php
+                    foreach ($branches as $branch) {
+                        echo '<option>';
+                        echo $branch['branchName'];
+                        echo '</option>';
+                    }
+                    ?>
+                    <option></option>
+                </select>
+            </form>
         </div>
 
         <div id="JobOfferList">

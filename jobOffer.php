@@ -34,6 +34,9 @@ if (isset($_POST["Reaction"])) {
 if ($sessionID == 2) {
     motivations($id);
 }
+if (isset($_POST['delete'])) {
+    deleteoffer($id);
+}
 
 //This function first checks if the user is logged in, If not it will show a alert when the user tries to send his offer reaction
 //When the user is logged in and sends the OfferReaction the information will be stored with the user id and offer id
@@ -74,6 +77,11 @@ function motivations($jobOfferId)
     $stmt->execute();
     $motivations = $stmt->fetchAll(PDO::FETCH_ASSOC);
     include('Includes\motivation.php');
+}
+
+function deleteOffer()
+{
+
 }
 
 ?>

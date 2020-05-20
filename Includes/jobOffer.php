@@ -1,12 +1,12 @@
 <html>
 <div class="content">
-<!--    checks the status of the offer and displays it-->
+    <!--    checks the status of the offer and displays it-->
     Vacature staat <?php if ($jobOfferStatus == 0) {
         echo 'uit <br><br>';
     } elseif ($jobOfferStatus == 1) {
         echo 'aan <br><br>';
     }
-//    send status and offer id to jobofferstatus
+    //    send status and offer id to jobofferstatus
     if ($sessionID == 2) {
         echo '<a href="../Examen/jobOfferStatus.php?id=' . $jobOfferID . '&status=' . $jobOfferStatus . '" class="Activate-JobOffer">Vacature aan of uit zetten</a>';
     }
