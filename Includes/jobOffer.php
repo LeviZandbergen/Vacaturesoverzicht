@@ -22,7 +22,6 @@
         echo '</div>';
     }
     if ($sessionID != 2) {
-
         ?>
         <form name="JobOfferReaction" id="JobOfferReaction" method="POST" enctype="multipart/form-data" action="">
             <h3>Reageren op de vacature</h3>
@@ -30,8 +29,6 @@
             <a>Motivatie</a><textarea rows="8" cols="50" name="Motivation"></textarea><br><br>
             <button type="submit" class="button reaction-button" name="Reaction">Verstuur</button>
         </form>
-        <?php
-    }
-    ?>
+    <?php } ?>
 </div>
 </html>

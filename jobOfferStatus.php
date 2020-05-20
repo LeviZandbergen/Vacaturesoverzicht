@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="Css/style.css">
 <?php
+
 include('DBconfig.php');
 //checks if logged in user is manager, if not send back to index
 if ($_SESSION['ID'] != 2) {

@@ -73,6 +73,12 @@ function register()
     $validatedEmail = filter_var($email, FILTER_VALIDATE_EMAIL);
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
+    if ($email == '' || $password == '') {
+        echo '<script language="javascript">';
+        echo 'alert("voer een email en wachtwoord in")';
+        echo '</script>';
+        exit();
+    }
     $sql = "SELECT * FROM user WHERE email = ?";
     $stmt = $db->prepare($sql);
     $stmt->execute(array($email));
@@ -98,5 +104,4 @@ function register()
     echo 'alert("' . $error . '")';
     echo '</script>';
 }
-
 ?>

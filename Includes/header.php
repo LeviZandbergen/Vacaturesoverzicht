@@ -1,7 +1,4 @@
-<?php
-
-include('DBconfig.php');
-?>
+<?php include('DBconfig.php'); ?>
 
 <html>
 <div class="header">

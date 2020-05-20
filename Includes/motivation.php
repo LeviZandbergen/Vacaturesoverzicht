@@ -1,6 +1,4 @@
-<?php
-foreach ($motivations as $motivation) {
-    ?>
+<?php foreach ($motivations as $motivation) { ?>
     <div class="jobOfferMotivation">
         <a class="motivationDownload" href="<?php echo $motivation['cv'] ?>" download>Download CV</a>
         <div class="motivation-text">
@@ -13,6 +11,4 @@ foreach ($motivations as $motivation) {
                class="reject-button">Afwijzen</a>
         </div>
     </div>
-    <?php
-}
-?>
+<?php } ?>

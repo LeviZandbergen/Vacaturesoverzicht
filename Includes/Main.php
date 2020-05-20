@@ -8,7 +8,7 @@
             }
             ?>
             <form name="filter" id="filter" method="POST" enctype="multipart/form-data" action="">
-                <input type="search"><br>
+                Zoeken: <input type="search"><br>
 
                 Catagoriseer<select>
                     <option></option>
