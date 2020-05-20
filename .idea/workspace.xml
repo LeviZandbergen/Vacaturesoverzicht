@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ea27cb8-8250-4e92-b070-2140aa91a6c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Includes/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Includes/jobOffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/jobOffer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobOffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/jobOffer.php" afterDir="false" />
+    <list default="true" id="8ea27cb8-8250-4e92-b070-2140aa91a6c4" name="Default Changelist" comment="removed some folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacaturesoverzicht" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/libraries/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -24,22 +22,24 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="json" value="1" />
-          <entry key="php" value="52" />
+          <entry key="md" value="2" />
+          <entry key="php" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="49" />
+          <entry key="Markdown" value="2" />
+          <entry key="PHP" value="51" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -47,7 +47,7 @@
         <counts>
           <entry key="css" value="1687" />
           <entry key="php" value="16556" />
-          <entry key="txt" value="565" />
+          <entry key="txt" value="764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -55,7 +55,7 @@
           <entry key="CSS" value="1687" />
           <entry key="HTML" value="1" />
           <entry key="PHP" value="16491" />
-          <entry key="PLAIN_TEXT" value="627" />
+          <entry key="PLAIN_TEXT" value="826" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -71,8 +71,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="130">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -90,16 +100,25 @@
         <entry file="file://$PROJECT_DIR$/Includes/newJobOffer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Includes/Main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
               <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Includes/jobOffer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -153,8 +172,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="338" />
+    <option name="y" value="147" />
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
@@ -170,11 +189,6 @@
             <path>
               <item name="Examen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="Includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,6 +236,7 @@
       <workItem from="1589790036944" duration="16695000" />
       <workItem from="1589871841480" duration="13712000" />
       <workItem from="1589885852377" duration="7264000" />
+      <workItem from="1589958215964" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="Added header and basic styling for header">
       <created>1589791926018</created>
@@ -293,16 +308,24 @@
       <option name="project" value="LOCAL" />
       <updated>1589891511489</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added more comments and changed the offer query on the main page so normal users don't get to see offers that are inactive and started working on filters">
+      <created>1589958322679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589958322679</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37674000" />
+    <option name="totallyTimeSpent" value="37917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3805369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,7 +384,8 @@
     <MESSAGE value="Added the list of joboffers on the main page" />
     <MESSAGE value="Added individual JobOffer pages where a user can react on the offer and send his CV + motivation" />
     <MESSAGE value="Added status update for offers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added status update for offers" />
+    <MESSAGE value="Added more comments and changed the offer query on the main page so normal users don't get to see offers that are inactive and started working on filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more comments and changed the offer query on the main page so normal users don't get to see offers that are inactive and started working on filters" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App/DBconfigs.php" />
@@ -453,20 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Includes/jobOffer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" column="165" selection-start-line="10" selection-start-column="165" selection-end-line="10" selection-end-column="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobOffer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2184">
@@ -477,7 +487,7 @@
     <entry file="file://$PROJECT_DIR$/Includes/newJobOffer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -485,6 +495,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/jobOffer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vacaturesoverzicht/Index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vacaturesoverzicht/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
