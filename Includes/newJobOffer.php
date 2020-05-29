@@ -43,8 +43,11 @@
                 echo $jobDescription;
             } ?>
         </textarea><br><br>
-
-        <button type="submit" class="button login-register-button" name="Create">Vacature online zetten</button>
+        <?php if ($edit) {
+            echo '<button type="submit" class="button login-register-button" name="Save">opslaan</button>';
+        } else {
+            echo '<button type="submit" class="button login-register-button" name="Create">Vacature online zetten</button>';
+        } ?>
     </form>
 </div>
 </html>

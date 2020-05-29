@@ -10,7 +10,8 @@
             echo 'aan <br><br>';
         }
         //    send status and offer id to jobofferstatus
-        echo '<a href="../Examen/jobOfferStatus.php?id=' . $jobOfferID . '&status=' . $jobOfferStatus . '" class="Activate-JobOffer">Vacature aan of uit zetten</a>';
+        echo '<a href="../Examen/jobOfferStatus.php?id=' . $jobOfferID . '&status=' . $jobOfferStatus . '" class="Activate-JobOffer">Vacature aan of uit zetten</a><br>';
+        echo '<a href="../Examen/newJobOffer.php?id=' . $jobOfferID . '&edit=true" class="edit-JobOffer">Vacature bewerken</a>';
     }
     if ($isFile == true) {
         echo '<div class="description">';
