@@ -15,6 +15,7 @@ $jobFunction = '';
 $jobName = '';
 $jobDescription = '';
 
+//When a id is send in the header the code queries for the joboffer with that id and fills in the fields with it's data
 if (!empty($_GET['id'])) {
     $id = $_GET['id'];
 
@@ -36,15 +37,15 @@ if (!empty($_GET['id'])) {
     } else {
         $jobDescription = $result['description'];
     }
+//    When an edit value is send via the url the button changes to a save button instead of creating a new jobOffer
     if (!empty($_GET['edit'])) {
         $edit = true;
     }
 }
 include('Includes\newJobOffer.php');
-//This function is for creating a new jobOffer.
-//First it checks if a file is uploaded
-// if so the file will be placed in the 'Uploads/Vacatures' folder and the insertOffer function will be called
-//If a jobDescription is filled manual the insertOffer function will be called
+
+//This function is for creating a new jobOffer
+//It gets the data from the form and calls the message function and displays the message
 function createOffer()
 {
     include('DBconfig.php');
@@ -61,6 +62,7 @@ function createOffer()
 
 }
 
+//Gets the data from the form and calls in the message function and displays the message
 function editOffer($id)
 {
     $offerName = htmlspecialchars($_POST["offerName"]);
@@ -75,6 +77,8 @@ function editOffer($id)
     echo '</script>';
 }
 
+//This function checks if the fields are filled in right and creates a message according to the status.
+//When the fields are filled correctly the updateOffer or insertOffer function is called
 function messages($offerName, $offerFunction, $offerBranch, $offerManual, $edit = false, $id = null)
 {
     $message = '';
@@ -125,6 +129,9 @@ function insertOffer($offerName, $offerFunction, $offerBranch, $description)
     $stmt->execute();
 }
 
+//Function that updates the jobOffers data in the database
+//This function is called when a file is uploaded and the save button is clicked
+// or the offer is typed manually and the save button is clicked.
 function updateOffer($offerName, $offerFunction, $offerBranch, $description, $id)
 {
     include('DBconfig.php');
@@ -132,4 +139,5 @@ function updateOffer($offerName, $offerFunction, $offerBranch, $description, $id
     $stmt = $db->prepare($sql);
     $stmt->execute();
 }
+
 ?>
