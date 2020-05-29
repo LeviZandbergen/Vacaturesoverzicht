@@ -38,9 +38,16 @@
             ?>
         </select><br><br>
         <a>Word bestand uploaden</a><input type="file" class="input-text" name="OfferWordFile"<br><br>
-        <a>Of typ zelf een vacature</a><textarea rows="15" cols="100%" name="offerManual"><?php if (!$isFile) {echo $jobDescription;} ?></textarea><br><br>
-
-        <button type="submit" class="button login-register-button" name="Create">Vacature online zetten</button>
+        <a>Of typ zelf een vacature</a><textarea rows="15" cols="100%" name="offerManual">
+            <?php if (!$isFile) {
+                echo $jobDescription;
+            } ?>
+        </textarea><br><br>
+        <?php if ($edit) {
+            echo '<button type="submit" class="button login-register-button" name="Save">opslaan</button>';
+        } else {
+            echo '<button type="submit" class="button login-register-button" name="Create">Vacature online zetten</button>';
+        } ?>
     </form>
 </div>
 </html>

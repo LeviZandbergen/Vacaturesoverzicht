@@ -29,15 +29,24 @@
 
         <div id="JobOfferList">
             <?php
-            //            shows all joboffers
+            //            shows all joboffers, When user is manager show the 'dupliceer' button
             foreach ($result as $key => $value) {
-                echo '
+                if ($sessionID == 2) {
+                    echo '
                 <div class="jobOffer">
                     <a href="../Examen/jobOffer.php?id= ' . $value["jobofferID"] . ' " class="jobOfferName">
                     <strong>' . ucfirst($value["name"]) . '</strong></a>
                     <a href="../Examen/newJobOffer.php?id= ' . $value["jobofferID"] . ' ">dupliceer</a>
                 </div>  
                 ';
+                } else {
+                    echo '
+                <div class="jobOffer">
+                    <a href="../Examen/jobOffer.php?id= ' . $value["jobofferID"] . ' " class="jobOfferName">
+                    <strong>' . ucfirst($value["name"]) . '</strong></a>
+                </div>  
+                ';
+                }
             }
             ?>
         </div>
