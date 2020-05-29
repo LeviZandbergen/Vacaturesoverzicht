@@ -12,6 +12,10 @@
         //    send status and offer id to jobofferstatus
         echo '<a href="../Examen/jobOfferStatus.php?id=' . $jobOfferID . '&status=' . $jobOfferStatus . '" class="Activate-JobOffer">Vacature aan of uit zetten</a><br>';
         echo '<a href="../Examen/newJobOffer.php?id=' . $jobOfferID . '&edit=true" class="edit-JobOffer">Vacature bewerken</a>';
+        echo '<form name="deleteJobOffer" id="deleteJobOffer" method="POST" enctype="multipart/form-data" action="">
+                <input type="hidden" name="jobOfferID" value="' . $jobOfferID . '">
+                <button type="submit" name="delete">Verwijder</button>
+              </form>';
     }
     if ($isFile == true) {
         echo '<div class="description">';

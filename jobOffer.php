@@ -35,7 +35,7 @@ if ($sessionID == 2) {
     motivations($id);
 }
 if (isset($_POST['delete'])) {
-    deleteoffer($id);
+    deleteOffer();
 }
 
 //This function first checks if the user is logged in, If not it will show a alert when the user tries to send his offer reaction
@@ -79,9 +79,16 @@ function motivations($jobOfferId)
     include('Includes\motivation.php');
 }
 
+//Deletes the jobOffer from the id that is send from the joboffer page
 function deleteOffer()
 {
-
+    include('DBconfig.php');
+    $id = $_POST['jobOfferID'];
+    $query = "DELETE FROM joboffer WHERE jobofferID = $id";
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    header('Location: index.php');
+    exit();
 }
 
 ?>
