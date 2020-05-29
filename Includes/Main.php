@@ -31,7 +31,13 @@
             <?php
             //            shows all joboffers
             foreach ($result as $key => $value) {
-                echo '<a class="jobOffer" href="../Examen/jobOffer.php?id= ' . $value["jobofferID"] . ' " class="jobOfferName"><strong>' . ucfirst($value["name"]) . '</strong></a>';
+                echo '
+                <div class="jobOffer">
+                    <a href="../Examen/jobOffer.php?id= ' . $value["jobofferID"] . ' " class="jobOfferName">
+                    <strong>' . ucfirst($value["name"]) . '</strong></a>
+                    <a href="../Examen/newJobOffer.php?id= ' . $value["jobofferID"] . ' ">dupliceer</a>
+                </div>  
+                ';
             }
             ?>
         </div>

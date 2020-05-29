@@ -11,6 +11,7 @@ if ($_SESSION['ID'] == 2) {
 } else {
     $sql = "SELECT * FROM jobOffer where status = 1";
 }
+
 $stmt = $db->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
