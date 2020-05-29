@@ -3,11 +3,38 @@
 
 include('DBconfig.php');
 include('Includes\header.php');
-include('Includes\newJobOffer.php');
 
 if (isset($_POST["Create"])) {
     createOffer();
 }
+$jobBranch = '';
+$jobFunction = '';
+$jobName = '';
+$jobDescription = '';
+
+if (!empty($_GET['id'])) {
+    $id = $_GET['id'];
+
+    $sql = "SELECT * FROM `joboffer` WHERE jobofferID = ?";
+    $stmt = $db->prepare($sql);
+    $stmt->execute(array($id));
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    $jobBranch = $result['idJobbranch'];
+    $jobFunction = $result['idJobfunction'];
+    $jobName = $result['name'];
+
+    $isFile = false;
+    $variable = 'filename: ' . $result['description'];
+//    Checks if description is a file or a manually typed description
+//    When it is a file the filename will be send to the html, otherwise the full description
+    if (strpos($variable, 'Uploads/Vacatures/')) {
+        $isFile = true;
+        $fileName = $result['description'];
+    } else {
+        $jobDescription = $result['description'];
+    }
+}
+include('Includes\newJobOffer.php');
 //This function is for creating a new jobOffer.
 //First it checks if a file is uploaded
 // if so the file will be placed in the 'Uploads/Vacatures' folder and the insertOffer function will be called
@@ -54,4 +81,5 @@ function insertOffer($offerName, $offerFunction, $offerBranch, $description)
     $stmt = $db->prepare($query);
     $stmt->execute();
 }
+
 ?>
